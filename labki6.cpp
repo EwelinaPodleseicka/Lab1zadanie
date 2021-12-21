@@ -35,7 +35,7 @@ int main()
     }
     cout << wynik;
 
-    //zad2
+    //zad4
     int dwusilnia(int n) {
         if (n == 0) return 1;
         if (n == 2) return 2;
@@ -43,6 +43,8 @@ int main()
         return n * dwusilnia(n - 2);
     }
 
+
+    //zad3
     bool LiczbaPierwsza(int Liczba) {
         if (Liczba == 1) return false;
         if (Liczba == 2) return true;
@@ -53,13 +55,9 @@ int main()
         return true;
     }
 
-    {
-        cout << dwusilnia(4) << endl;
-        cout << LiczbaPierwsza(21) << endl;
-        return 0;
-    }
+   
 
-    //zad4
+   
 
 
 
